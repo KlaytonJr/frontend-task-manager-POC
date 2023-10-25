@@ -10,7 +10,11 @@ import { UserService } from 'app/services/user.service';
   templateUrl: './default.component.html',
 })
 export class DefaultComponent {
-  constructor(private userService: UserService, private taskService: TaskService, private dashService: DashService) {
+  constructor(
+    private userService: UserService,
+    private taskService: TaskService,
+    private dashService: DashService,
+  ) {
     this.userService.list().subscribe((users) => {
       console.log('Users: ', users);
     });
