@@ -21,4 +21,4 @@ import { UserComponent } from './user.component';
     UserService,
   ],
 })
-export class UserdModule { }
+export class UserModule { }
