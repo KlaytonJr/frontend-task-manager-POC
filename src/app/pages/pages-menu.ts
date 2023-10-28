@@ -9,7 +9,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'Cadastros',
+    title: 'CADASTROS',
     group: true,
   },
   {
